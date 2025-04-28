@@ -5,4 +5,3 @@ for i in range(10):
             print(f"{i}{j}", end=", ")
         else:
             print(f"{i}{j}")
-
