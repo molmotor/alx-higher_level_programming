@@ -1,8 +1,8 @@
-#!usr/bin/python3
+#!/usr/bin/python3
 def number_keys(a_dictionary):
-    number_keys = 0
+    count = 0
 
     for element in a_dictionary:
-        number_keys+= 1
+        count+= 1
 
-    return number_keys
+    return count
