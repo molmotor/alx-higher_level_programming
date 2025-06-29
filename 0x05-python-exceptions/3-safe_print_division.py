@@ -6,5 +6,5 @@ def safe_print_division(a, b):
         except(TypeError, ZeroDivisionError):
            c = None
         finally:
-           print("{:.2f}".format(c) if c is not None else "None")
+            print("Inside result: {}".format(c))
         return c
